@@ -1,6 +1,6 @@
 {
   "name": "@different/pdf-lib",
-  "version": "1.17.1",
+  "version": "1.17.2",
   "description": "Create and modify PDF files with JavaScript",
   "author": "Andrew Dillon <andrew.dillon.j@gmail.com>",
   "contributors": [
@@ -31,6 +31,8 @@
     "Tim Knapp (https://github.com/duffyd)"
   ],
   "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
     "release:latest": "yarn publish --tag latest && yarn pack && yarn release:tag",
     "release:next": "yarn publish --tag next",
     "release:prep": "yarn clean && yarn lint && yarn typecheck && yarn test && yarn build",
