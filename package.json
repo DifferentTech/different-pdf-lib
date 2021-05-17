@@ -120,7 +120,7 @@
   },
   "license": "MIT",
   "private": false,
-  "homepage": "https://pdf-lib.js.org",
+  "homepage": "https://github.com/DifferentTech/different-pdf-lib",
   "repository": {
     "type": "git",
     "url": "git@github.com:DifferentTech/different-pdf-lib.git"

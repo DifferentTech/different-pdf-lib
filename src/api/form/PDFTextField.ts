@@ -13,11 +13,7 @@ import {
 } from 'src/api/form/appearances';
 import { rgb } from 'src/api/colors';
 import { degrees } from 'src/api/rotations';
-import {
-  RichTextFieldReadError,
-  ExceededMaxLengthError,
-  InvalidMaxLengthError,
-} from 'src/api/errors';
+import { ExceededMaxLengthError, InvalidMaxLengthError } from 'src/api/errors';
 import { ImageAlignment } from 'src/api/image/alignment';
 import { TextAlignment } from 'src/api/text/alignment';
 
