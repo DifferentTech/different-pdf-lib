@@ -5,7 +5,7 @@
 </a>
 
 <div align="center">
-  <strong>Create and modify PDF documents in any JavaScript environment. This repor is a fork of https://www.npmjs.com/package/pdf-lib/v/1.6.0.
+  <strong>Create and modify PDF documents in any JavaScript environment. This repo is a fork of https://www.npmjs.com/package/pdf-lib/v/1.6.0.
   </strong>
    <strong>Support rich text fields which was not supported in original library
   </strong>
